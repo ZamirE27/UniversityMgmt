@@ -51,4 +51,20 @@ public class EnrollmentRepository : IEnrollmentRepository<Enrollment>
         await _context.SaveChangesAsync();
         return enrollment;
     }
+
+    public async Task<bool> AnyCourseByIdAsync(int courseId)
+    {
+        return await _context.Enrollments.AnyAsync(e => e.CourseId == courseId);
+    }
+
+    public async Task<bool> AnyStudentByIdAsync(int studentId)
+    {
+        return await _context.Enrollments.AnyAsync(e => e.StudentId == studentId);
+    }
+
+    public async Task<bool> AnyEnrollmentAsync(int courseId, int studentId)
+    {
+        return await  _context.Enrollments
+            .AnyAsync(e => e.CourseId == courseId && e.StudentId == studentId);
+    }
 }
