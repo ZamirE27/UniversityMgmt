@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n6gaEFS5qzI=",
+  "dgSpecHash": "/e82MpRMiV0=",
   "success": true,
-  "projectFilePath": "/home/zamir-estrada/Documents/C#/ProjectsAPi/TSGEC/UniversityMgmt.Application/UniversityMgmt.Application.csproj",
-  "expectedPackageFiles": [
-    "/home/zamir-estrada/.nuget/packages/microsoft.netcore.app.ref/8.0.21/microsoft.netcore.app.ref.8.0.21.nupkg.sha512",
-    "/home/zamir-estrada/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.21/microsoft.aspnetcore.app.ref.8.0.21.nupkg.sha512"
-  ],
+  "projectFilePath": "/home/zamir-estrada/Documents/C#/Projects-DDD/UniversityMgmt/UniversityMgmt.Application/UniversityMgmt.Application.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

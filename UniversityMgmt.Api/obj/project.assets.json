@@ -1408,11 +1408,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/zamir-estrada/Documents/C#/ProjectsAPi/TSGEC/UniversityMgmt.Api/UniversityMgmt.Api.csproj",
+      "projectUniqueName": "/home/zamir-estrada/Documents/C#/Projects-DDD/UniversityMgmt/UniversityMgmt.Api/UniversityMgmt.Api.csproj",
       "projectName": "UniversityMgmt.Api",
-      "projectPath": "/home/zamir-estrada/Documents/C#/ProjectsAPi/TSGEC/UniversityMgmt.Api/UniversityMgmt.Api.csproj",
+      "projectPath": "/home/zamir-estrada/Documents/C#/Projects-DDD/UniversityMgmt/UniversityMgmt.Api/UniversityMgmt.Api.csproj",
       "packagesPath": "/home/zamir-estrada/.nuget/packages/",
-      "outputPath": "/home/zamir-estrada/Documents/C#/ProjectsAPi/TSGEC/UniversityMgmt.Api/obj/",
+      "outputPath": "/home/zamir-estrada/Documents/C#/Projects-DDD/UniversityMgmt/UniversityMgmt.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/zamir-estrada/.nuget/NuGet/NuGet.Config"
@@ -1427,11 +1427,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/zamir-estrada/Documents/C#/ProjectsAPi/TSGEC/UniversityMgmt.Application/UniversityMgmt.Application.csproj": {
-              "projectPath": "/home/zamir-estrada/Documents/C#/ProjectsAPi/TSGEC/UniversityMgmt.Application/UniversityMgmt.Application.csproj"
+            "/home/zamir-estrada/Documents/C#/Projects-DDD/UniversityMgmt/UniversityMgmt.Application/UniversityMgmt.Application.csproj": {
+              "projectPath": "/home/zamir-estrada/Documents/C#/Projects-DDD/UniversityMgmt/UniversityMgmt.Application/UniversityMgmt.Application.csproj"
             },
-            "/home/zamir-estrada/Documents/C#/ProjectsAPi/TSGEC/UniversityMgmt.Infrastructure/UniversityMgmt.Infrastructure.csproj": {
-              "projectPath": "/home/zamir-estrada/Documents/C#/ProjectsAPi/TSGEC/UniversityMgmt.Infrastructure/UniversityMgmt.Infrastructure.csproj"
+            "/home/zamir-estrada/Documents/C#/Projects-DDD/UniversityMgmt/UniversityMgmt.Infrastructure/UniversityMgmt.Infrastructure.csproj": {
+              "projectPath": "/home/zamir-estrada/Documents/C#/Projects-DDD/UniversityMgmt/UniversityMgmt.Infrastructure/UniversityMgmt.Infrastructure.csproj"
             }
           }
         }
@@ -1440,13 +1440,7 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.300"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -1476,20 +1470,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.21, 8.0.21]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.linux-x64",
-            "version": "[8.0.21, 8.0.21]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.21, 8.0.21]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -1498,7 +1478,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/zamir-estrada/.dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
